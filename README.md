@@ -4,7 +4,7 @@ A Bun-native backend framework with preset-driven architecture.
 
 ## Philosophy
 
-Bunway is not a Laravel clone and not a Node framework wrapper. It is a **first-class Bun framework** that prioritizes:
+Bunway is not a Node framework wrapper. It is a **first-class Bun framework** that prioritizes:
 
 - **Explicit configuration** — No magic, configuration is code
 - **Predictable folder structures** — Presets define conventions
