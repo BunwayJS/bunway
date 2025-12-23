@@ -20,6 +20,7 @@ build/
 *.swo
 *~
 . DS_Store
+CLAUDE.md
 
 # Logs
 logs/
