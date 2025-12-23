@@ -1,0 +1,40 @@
+{
+  "name": "bunway-framework",
+  "version": "0.1.0",
+  "description": "A Bun-native backend framework with preset-driven architecture",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/presets/*",
+    "samples/*"
+  ],
+  "scripts": {
+    "dev": "cd samples/basic-app && bun run dev",
+    "build": "bun run build --recursive",
+    "test": "bun test",
+    "lint": "tsc --noEmit",
+    "publish": "bun run publish --recursive"
+  },
+  "keywords": [
+    "bun",
+    "bunway",
+    "bunwayjs",
+    "framework",
+    "backend",
+    "preset",
+    "mvc"
+  ],
+  "author": "Bunway",
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
