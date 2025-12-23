@@ -1,0 +1,11 @@
+node_modules/
+bun. lockb
+dist/
+. env
+.env.local
+.DS_Store
+*.log
+storage/logs/*
+storage/cache/*
+! storage/logs/.gitkeep
+!storage/cache/.gitkeep
